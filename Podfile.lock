@@ -1,0 +1,21 @@
+PODS:
+  - HHAttachmentSheetView (1.4.0)
+  - HHCheckboxButton (1.0.0)
+  - SSignalKit (0.0.2)
+  - TGMediaAssets (1.0.2):
+    - SSignalKit (~> 0.0.2)
+
+DEPENDENCIES:
+  - HHAttachmentSheetView (~> 1.4.0)
+  - HHCheckboxButton (~> 1.0.0)
+  - TGMediaAssets (~> 1.0.2)
+
+SPEC CHECKSUMS:
+  HHAttachmentSheetView: 224e868d9ffbd0fd8620f2df3bd6c13f629be63d
+  HHCheckboxButton: 2753225f8ee806f49e7a37e45fe876fefbd3caa8
+  SSignalKit: d65a4f89cdf037c787d630c7d6d6359b80f290f4
+  TGMediaAssets: f5f77d8a56d7ad717b18ec9ddd5676e072349e8e
+
+PODFILE CHECKSUM: adc8d7e29488a61f2307331d303433ec8360b4b0
+
+COCOAPODS: 1.0.1

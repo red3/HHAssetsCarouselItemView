@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3560875D07C0F592C4179B39 /* libPods-HHAssetsCarouselItemViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0113D3DED984545641FDEB /* libPods-HHAssetsCarouselItemViewDemo.a */; };
+		49A6A0A11D0ABCCE00545282 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A0A01D0ABCCE00545282 /* main.m */; };
+		49A6A0A41D0ABCCE00545282 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A0A31D0ABCCE00545282 /* AppDelegate.m */; };
+		49A6A0A71D0ABCCE00545282 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A0A61D0ABCCE00545282 /* ViewController.m */; };
+		49A6A0AA1D0ABCCE00545282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A6A0A81D0ABCCE00545282 /* Main.storyboard */; };
+		49A6A0AC1D0ABCCE00545282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A6A0AB1D0ABCCE00545282 /* Assets.xcassets */; };
+		49A6A0AF1D0ABCCE00545282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A6A0AD1D0ABCCE00545282 /* LaunchScreen.storyboard */; };
+		49A6A0C81D0AC2C900545282 /* HHAssetsCarouselItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A0B81D0AC2C900545282 /* HHAssetsCarouselItemView.m */; };
+		49A6A0C91D0AC2C900545282 /* HHAttachmentAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A0BA1D0AC2C900545282 /* HHAttachmentAssetCell.m */; };
+		49A6A0CA1D0AC2C900545282 /* HHAttachmentMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A0BC1D0AC2C900545282 /* HHAttachmentMenuCell.m */; };
+		49A6A0CB1D0AC2C900545282 /* HHAttachmentPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A0BE1D0AC2C900545282 /* HHAttachmentPhotoCell.m */; };
+		49A6A0CC1D0AC2C900545282 /* HHMediaAssetsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A0C01D0AC2C900545282 /* HHMediaAssetsUtils.m */; };
+		49A6A0CD1D0AC2C900545282 /* HHTransitionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A0C31D0AC2C900545282 /* HHTransitionLayout.m */; };
+		49A6A0CE1D0AC2C900545282 /* UICollectionView+HHTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A0C51D0AC2C900545282 /* UICollectionView+HHTransitioning.m */; };
+		49A6A0CF1D0AC2C900545282 /* UICollectionView+HHUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6A0C71D0AC2C900545282 /* UICollectionView+HHUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B9DB0E973865EE4C7742DE0 /* Pods-HHAssetsCarouselItemViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHAssetsCarouselItemViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHAssetsCarouselItemViewDemo/Pods-HHAssetsCarouselItemViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		49A6A09C1D0ABCCE00545282 /* HHAssetsCarouselItemViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHAssetsCarouselItemViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A6A0A01D0ABCCE00545282 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49A6A0A21D0ABCCE00545282 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49A6A0A31D0ABCCE00545282 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49A6A0A51D0ABCCE00545282 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49A6A0A61D0ABCCE00545282 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49A6A0A91D0ABCCE00545282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49A6A0AB1D0ABCCE00545282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49A6A0AE1D0ABCCE00545282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49A6A0B01D0ABCCE00545282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A6A0B71D0AC2C900545282 /* HHAssetsCarouselItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAssetsCarouselItemView.h; sourceTree = "<group>"; };
+		49A6A0B81D0AC2C900545282 /* HHAssetsCarouselItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAssetsCarouselItemView.m; sourceTree = "<group>"; };
+		49A6A0B91D0AC2C900545282 /* HHAttachmentAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAttachmentAssetCell.h; sourceTree = "<group>"; };
+		49A6A0BA1D0AC2C900545282 /* HHAttachmentAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAttachmentAssetCell.m; sourceTree = "<group>"; };
+		49A6A0BB1D0AC2C900545282 /* HHAttachmentMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAttachmentMenuCell.h; sourceTree = "<group>"; };
+		49A6A0BC1D0AC2C900545282 /* HHAttachmentMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAttachmentMenuCell.m; sourceTree = "<group>"; };
+		49A6A0BD1D0AC2C900545282 /* HHAttachmentPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAttachmentPhotoCell.h; sourceTree = "<group>"; };
+		49A6A0BE1D0AC2C900545282 /* HHAttachmentPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAttachmentPhotoCell.m; sourceTree = "<group>"; };
+		49A6A0BF1D0AC2C900545282 /* HHMediaAssetsUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHMediaAssetsUtils.h; sourceTree = "<group>"; };
+		49A6A0C01D0AC2C900545282 /* HHMediaAssetsUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHMediaAssetsUtils.m; sourceTree = "<group>"; };
+		49A6A0C11D0AC2C900545282 /* HHModernGalleryTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHModernGalleryTransitionView.h; sourceTree = "<group>"; };
+		49A6A0C21D0AC2C900545282 /* HHTransitionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTransitionLayout.h; sourceTree = "<group>"; };
+		49A6A0C31D0AC2C900545282 /* HHTransitionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHTransitionLayout.m; sourceTree = "<group>"; };
+		49A6A0C41D0AC2C900545282 /* UICollectionView+HHTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+HHTransitioning.h"; sourceTree = "<group>"; };
+		49A6A0C51D0AC2C900545282 /* UICollectionView+HHTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+HHTransitioning.m"; sourceTree = "<group>"; };
+		49A6A0C61D0AC2C900545282 /* UICollectionView+HHUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+HHUtils.h"; sourceTree = "<group>"; };
+		49A6A0C71D0AC2C900545282 /* UICollectionView+HHUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+HHUtils.m"; sourceTree = "<group>"; };
+		843AF0032887803FA5B970DD /* Pods-HHAssetsCarouselItemViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHAssetsCarouselItemViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHAssetsCarouselItemViewDemo/Pods-HHAssetsCarouselItemViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FE0113D3DED984545641FDEB /* libPods-HHAssetsCarouselItemViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHAssetsCarouselItemViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49A6A0991D0ABCCE00545282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3560875D07C0F592C4179B39 /* libPods-HHAssetsCarouselItemViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49A6A0931D0ABCCE00545282 = {
+			isa = PBXGroup;
+			children = (
+				49A6A0B61D0AC2C900545282 /* HHAssetsCarouselItemView */,
+				49A6A09E1D0ABCCE00545282 /* HHAssetsCarouselItemViewDemo */,
+				49A6A09D1D0ABCCE00545282 /* Products */,
+				7A31286ED8DAE27F68079BCE /* Pods */,
+				AEFFA20D07D7296BD416F42D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49A6A09D1D0ABCCE00545282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49A6A09C1D0ABCCE00545282 /* HHAssetsCarouselItemViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49A6A09E1D0ABCCE00545282 /* HHAssetsCarouselItemViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				49A6A0A21D0ABCCE00545282 /* AppDelegate.h */,
+				49A6A0A31D0ABCCE00545282 /* AppDelegate.m */,
+				49A6A0A51D0ABCCE00545282 /* ViewController.h */,
+				49A6A0A61D0ABCCE00545282 /* ViewController.m */,
+				49A6A0A81D0ABCCE00545282 /* Main.storyboard */,
+				49A6A0AB1D0ABCCE00545282 /* Assets.xcassets */,
+				49A6A0AD1D0ABCCE00545282 /* LaunchScreen.storyboard */,
+				49A6A0B01D0ABCCE00545282 /* Info.plist */,
+				49A6A09F1D0ABCCE00545282 /* Supporting Files */,
+			);
+			path = HHAssetsCarouselItemViewDemo;
+			sourceTree = "<group>";
+		};
+		49A6A09F1D0ABCCE00545282 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49A6A0A01D0ABCCE00545282 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49A6A0B61D0AC2C900545282 /* HHAssetsCarouselItemView */ = {
+			isa = PBXGroup;
+			children = (
+				49A6A0B71D0AC2C900545282 /* HHAssetsCarouselItemView.h */,
+				49A6A0B81D0AC2C900545282 /* HHAssetsCarouselItemView.m */,
+				49A6A0B91D0AC2C900545282 /* HHAttachmentAssetCell.h */,
+				49A6A0BA1D0AC2C900545282 /* HHAttachmentAssetCell.m */,
+				49A6A0BB1D0AC2C900545282 /* HHAttachmentMenuCell.h */,
+				49A6A0BC1D0AC2C900545282 /* HHAttachmentMenuCell.m */,
+				49A6A0BD1D0AC2C900545282 /* HHAttachmentPhotoCell.h */,
+				49A6A0BE1D0AC2C900545282 /* HHAttachmentPhotoCell.m */,
+				49A6A0BF1D0AC2C900545282 /* HHMediaAssetsUtils.h */,
+				49A6A0C01D0AC2C900545282 /* HHMediaAssetsUtils.m */,
+				49A6A0C11D0AC2C900545282 /* HHModernGalleryTransitionView.h */,
+				49A6A0C21D0AC2C900545282 /* HHTransitionLayout.h */,
+				49A6A0C31D0AC2C900545282 /* HHTransitionLayout.m */,
+				49A6A0C41D0AC2C900545282 /* UICollectionView+HHTransitioning.h */,
+				49A6A0C51D0AC2C900545282 /* UICollectionView+HHTransitioning.m */,
+				49A6A0C61D0AC2C900545282 /* UICollectionView+HHUtils.h */,
+				49A6A0C71D0AC2C900545282 /* UICollectionView+HHUtils.m */,
+			);
+			path = HHAssetsCarouselItemView;
+			sourceTree = "<group>";
+		};
+		7A31286ED8DAE27F68079BCE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B9DB0E973865EE4C7742DE0 /* Pods-HHAssetsCarouselItemViewDemo.debug.xcconfig */,
+				843AF0032887803FA5B970DD /* Pods-HHAssetsCarouselItemViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEFFA20D07D7296BD416F42D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE0113D3DED984545641FDEB /* libPods-HHAssetsCarouselItemViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49A6A09B1D0ABCCE00545282 /* HHAssetsCarouselItemViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A6A0B31D0ABCCE00545282 /* Build configuration list for PBXNativeTarget "HHAssetsCarouselItemViewDemo" */;
+			buildPhases = (
+				191F451E28040676D0982311 /* [CP] Check Pods Manifest.lock */,
+				49A6A0981D0ABCCE00545282 /* Sources */,
+				49A6A0991D0ABCCE00545282 /* Frameworks */,
+				49A6A09A1D0ABCCE00545282 /* Resources */,
+				B07E02CCA7B3E649A175A4E5 /* [CP] Embed Pods Frameworks */,
+				78488FD062EE6A07A38BAFFC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHAssetsCarouselItemViewDemo;
+			productName = HHAssetsCarouselItemViewDemo;
+			productReference = 49A6A09C1D0ABCCE00545282 /* HHAssetsCarouselItemViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49A6A0941D0ABCCE00545282 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hirain;
+				TargetAttributes = {
+					49A6A09B1D0ABCCE00545282 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 49A6A0971D0ABCCE00545282 /* Build configuration list for PBXProject "HHAssetsCarouselItemViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49A6A0931D0ABCCE00545282;
+			productRefGroup = 49A6A09D1D0ABCCE00545282 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49A6A09B1D0ABCCE00545282 /* HHAssetsCarouselItemViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49A6A09A1D0ABCCE00545282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A6A0AF1D0ABCCE00545282 /* LaunchScreen.storyboard in Resources */,
+				49A6A0AC1D0ABCCE00545282 /* Assets.xcassets in Resources */,
+				49A6A0AA1D0ABCCE00545282 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		191F451E28040676D0982311 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78488FD062EE6A07A38BAFFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HHAssetsCarouselItemViewDemo/Pods-HHAssetsCarouselItemViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B07E02CCA7B3E649A175A4E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HHAssetsCarouselItemViewDemo/Pods-HHAssetsCarouselItemViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49A6A0981D0ABCCE00545282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A6A0CF1D0AC2C900545282 /* UICollectionView+HHUtils.m in Sources */,
+				49A6A0CE1D0AC2C900545282 /* UICollectionView+HHTransitioning.m in Sources */,
+				49A6A0C81D0AC2C900545282 /* HHAssetsCarouselItemView.m in Sources */,
+				49A6A0CA1D0AC2C900545282 /* HHAttachmentMenuCell.m in Sources */,
+				49A6A0A71D0ABCCE00545282 /* ViewController.m in Sources */,
+				49A6A0CC1D0AC2C900545282 /* HHMediaAssetsUtils.m in Sources */,
+				49A6A0A41D0ABCCE00545282 /* AppDelegate.m in Sources */,
+				49A6A0A11D0ABCCE00545282 /* main.m in Sources */,
+				49A6A0CD1D0AC2C900545282 /* HHTransitionLayout.m in Sources */,
+				49A6A0C91D0AC2C900545282 /* HHAttachmentAssetCell.m in Sources */,
+				49A6A0CB1D0AC2C900545282 /* HHAttachmentPhotoCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49A6A0A81D0ABCCE00545282 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A6A0A91D0ABCCE00545282 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49A6A0AD1D0ABCCE00545282 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49A6A0AE1D0ABCCE00545282 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49A6A0B11D0ABCCE00545282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49A6A0B21D0ABCCE00545282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49A6A0B41D0ABCCE00545282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9DB0E973865EE4C7742DE0 /* Pods-HHAssetsCarouselItemViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HHAssetsCarouselItemViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hirain.HHAssetsCarouselItemViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49A6A0B51D0ABCCE00545282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843AF0032887803FA5B970DD /* Pods-HHAssetsCarouselItemViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HHAssetsCarouselItemViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hirain.HHAssetsCarouselItemViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49A6A0971D0ABCCE00545282 /* Build configuration list for PBXProject "HHAssetsCarouselItemViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A6A0B11D0ABCCE00545282 /* Debug */,
+				49A6A0B21D0ABCCE00545282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A6A0B31D0ABCCE00545282 /* Build configuration list for PBXNativeTarget "HHAssetsCarouselItemViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A6A0B41D0ABCCE00545282 /* Debug */,
+				49A6A0B51D0ABCCE00545282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49A6A0941D0ABCCE00545282 /* Project object */;
+}
