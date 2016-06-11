@@ -25,6 +25,7 @@
 }
 
 - (IBAction)buttonDidClicked:(UIButton *)sender {
+    
     NSMutableArray *items = [[NSMutableArray alloc] initWithCapacity:5];
     
     HHAssetsCarouselItemView *assetsItem = [[HHAssetsCarouselItemView alloc] initWithCamera:NO selfPortrait:NO forProfilePhoto:NO assetType:TGMediaAssetPhotoType];
@@ -44,10 +45,7 @@
         
     }]];
    
-    
-    HHAttachmentSheetButtonItemView *cancelItem = [[HHAttachmentSheetButtonItemView alloc] initWithTitle:@"Cancel" pressed:^{
-            NSLog(@"cancel");
-    }];
+    HHAttachmentSheetButtonItemView *cancelItem = [[HHAttachmentSheetButtonItemView alloc] initWithTitle:@"Cancel" pressed:nil];
     cancelItem.bold = YES;
     [items addObject:cancelItem];
     
@@ -66,13 +64,7 @@
             if ([image isKindOfClass:[UIImage class]]) {
                 weakSelf.imageView.image = image;
             }
-        } completed:^{
-            //
-        }];
-       
-
-        
-        
+        } completed:nil];
     };
     
 }
