@@ -176,6 +176,12 @@ UICollectionViewDelegateFlowLayout>
     }
     
     _sendMediaItemView = [[HHAttachmentSheetButtonItemView alloc] initWithTitle:@"Send Photo" pressed:^{
+        __strong HHAssetsCarouselItemView *strongSelf = weakSelf;
+        //NSArray *array = [strongSelf.selectionContext.selectedItems copy];
+        
+        if (strongSelf != nil && strongSelf.sendPressed != nil) {
+            strongSelf.sendPressed(nil);
+        }
         
     }];
     _sendMediaItemView.bold = YES;

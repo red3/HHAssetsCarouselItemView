@@ -12,15 +12,18 @@
 @protocol HHAssetsCarouselItemViewDelegate;
 @interface HHAssetsCarouselItemView : HHAttachmentSheetItemView
 
+- (instancetype)initWithCamera:(bool)hasCamera selfPortrait:(bool)selfPortrait forProfilePhoto:(bool)forProfilePhoto assetType:(TGMediaAssetType)assetType;
+
+
 @property (nonatomic, strong) NSArray *underlyingViews;
-
 @property (nonatomic, weak) id <HHAssetsCarouselItemViewDelegate> delegate;
-
 
 @property (nonatomic, readonly) TGMediaSelectionContext *selectionContext;
 
+@property (nonatomic, copy) void (^sendPressed)(TGMediaAsset *currentItem);
 
-- (instancetype)initWithCamera:(bool)hasCamera selfPortrait:(bool)selfPortrait forProfilePhoto:(bool)forProfilePhoto assetType:(TGMediaAssetType)assetType;
+
+
 
 
 @end
