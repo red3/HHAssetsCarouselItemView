@@ -13,6 +13,7 @@
 @interface ViewController () <HHAssetsCarouselItemViewDelegate>
 
 @property (nonatomic, strong) HHAttachmentSheetView *sheetView;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -28,6 +29,7 @@
     
     HHAssetsCarouselItemView *assetsItem = [[HHAssetsCarouselItemView alloc] initWithCamera:NO selfPortrait:NO forProfilePhoto:NO assetType:TGMediaAssetPhotoType];
     assetsItem.delegate = self;
+   
     [items addObject:assetsItem];
     [items addObject:[[HHAttachmentSheetButtonItemView alloc] initWithTitle:@"Choose Photo" pressed:^ {
         NSLog(@"choose photo");
@@ -50,8 +52,28 @@
     [items addObject:cancelItem];
     
     _sheetView = [[HHAttachmentSheetView alloc] initWithItems:items];
-    
     [_sheetView showWithAnimate:YES completion:nil];
+
+    __weak ViewController *weakSelf = self;
+    __weak HHAttachmentSheetView *weakSheetView = _sheetView;
+    __weak HHAssetsCarouselItemView *weakItemView = assetsItem;
+    assetsItem.sendPressed = ^ (TGMediaAsset *assets) {
+        __strong HHAttachmentSheetView *strongSheetView = weakSheetView;
+        __strong HHAssetsCarouselItemView *strongItemView = weakItemView;
+        [strongSheetView hideWithAnimate:YES completion:nil];
+        TGMediaAsset *asset = [strongItemView.selectionContext.selectedItems firstObject];
+        [[TGMediaAssetImageSignals imageForAsset:asset imageType:TGMediaAssetImageTypeLargeThumbnail size:CGSizeMake(200, 200)] startWithNext:^(UIImage *image) {
+            if ([image isKindOfClass:[UIImage class]]) {
+                weakSelf.imageView.image = image;
+            }
+        } completed:^{
+            //
+        }];
+       
+
+        
+        
+    };
     
 }
 
