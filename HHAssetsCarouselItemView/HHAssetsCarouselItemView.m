@@ -199,7 +199,7 @@ UICollectionViewDelegateFlowLayout>
                          if (strongSelf == nil)
                              return [SSignal complete];
                          
-                         TGMediaLibraryAuthorizationStatus status = statusValue.integerValue;
+                         TGMediaLibraryAuthorizationStatus status = (int32_t)statusValue.integerValue;
                          if (status == TGMediaLibraryAuthorizationStatusAuthorized)
                          {
                              return [[strongSelf->_assetsLibrary cameraRollGroup] mapToSignal:^SSignal *(TGMediaAssetGroup *cameraRollGroup)
